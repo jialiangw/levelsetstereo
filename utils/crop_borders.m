@@ -1,0 +1,11 @@
+imL = imL(parameters.border_crop+1:end-parameters.border_crop,parameters.border_crop+1:end-parameters.border_crop);
+imR = imR(parameters.border_crop+1:end-parameters.border_crop,parameters.border_crop+1:end-parameters.border_crop);
+D = D(parameters.border_crop+1:end-parameters.border_crop,parameters.border_crop+1:end-parameters.border_crop);
+D_left = D_left(parameters.border_crop+1:end-parameters.border_crop,parameters.border_crop+1:end-parameters.border_crop);
+mask_fg = mask_fg(parameters.border_crop+1:end-parameters.border_crop,parameters.border_crop+1:end-parameters.border_crop);
+mask_bg = mask_bg(parameters.border_crop+1:end-parameters.border_crop,parameters.border_crop+1:end-parameters.border_crop);
+occ_bg = occ_bg(parameters.border_crop+1:end-parameters.border_crop,parameters.border_crop+1:end-parameters.border_crop);
+boundary_mask = boundary_mask(parameters.border_crop+1:end-parameters.border_crop,parameters.border_crop+1:end-parameters.border_crop);
+imL_color = imL_color(parameters.border_crop+1:end-parameters.border_crop,parameters.border_crop+1:end-parameters.border_crop,:);
+imR_color = imR_color(parameters.border_crop+1:end-parameters.border_crop,parameters.border_crop+1:end-parameters.border_crop,:);
+B_mono = B_mono(parameters.border_crop+1:end-parameters.border_crop,parameters.border_crop+1:end-parameters.border_crop,:);

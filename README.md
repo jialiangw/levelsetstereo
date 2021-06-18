@@ -1,4 +1,4 @@
-# Level Set Stereo with Occlusion
+# Let Set Stereo for Coorperative Grouping with Occlusion
 
 Localizing stereo boundaries is difficult because matching cues are absent in the occluded regions that are adjacent to them. 
 We introduce an energy and level-set optimizer that improves boundaries by encoding the essential geometry of occlusions: 

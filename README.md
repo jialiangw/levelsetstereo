@@ -1,4 +1,4 @@
-# Let Set Stereo for Coorperative Grouping with Occlusion
+# Let Set Stereo for Cooperative Grouping with Occlusion
 
 Localizing stereo boundaries is difficult because matching cues are absent in the occluded regions that are adjacent to them. 
 We introduce an energy and level-set optimizer that improves boundaries by encoding the essential geometry of occlusions: 
@@ -34,7 +34,7 @@ MATLAB_R2019b and Mac OS version 11.4.  <br /><br />
 
 
 ### Testing Scenes and References
-The testing scenes used in our paper come from the Middlebury 2006 dataset and the Falling Things dataset.
+The testing scenes used in our paper are collected from the Middlebury 2006 dataset and the Falling Things dataset.
 Please cite the appropriate papers in below:
 
 Middlebury 2006:
